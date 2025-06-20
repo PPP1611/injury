@@ -259,6 +259,21 @@ body {
   flex-direction: column;
 }
 
+.boton-home {
+  color: white;
+  /* Icono en blanco */
+  font-size: 300%;
+  /* Tamaño */
+  cursor: pointer;
+  line-height: 1;
+  /* Para asegurar que el icono esté centrado si es un <i> */
+  position: absolute;
+  top: 11%;
+  right: 5%;
+  z-index: 10;
+  position: fixed;
+
+}
 
 .boton-home:hover {
 
